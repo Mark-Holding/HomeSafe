@@ -5,12 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
     <header class="topnav">
-        <a href="javascript:void(0)" class="icon" onclick="showMenu()"><i class="fa fa-bars"></i></a>
+        <a href="/index.html" class="active"><img class="header-logo" src="/images/logo-no-text.png" alt="logo"></a>
+        <div id="myLinks">
+            <a href="">Home</a>
+            <a href="">Report Bug</a>
+            <a href="">Logout</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="showMenu()"><i class="fa fa-bars"></i></a>
+
     </header>
 
+    <script>
+        function showMenu(){
+            let x = document.getElementById("myLinks")
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
