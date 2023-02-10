@@ -28,4 +28,7 @@ img.home {
     padding: 20px 40px;
     border-radius: 12px;
     border: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
