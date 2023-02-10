@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-page {
+    background-color: #FEACC6;
+    background-image: linear-gradient(to right, #FEACC6, #ffdee9);
+}
+
+.content-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 100vh;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+img.home {
+    width: 200px;
+    height: auto;
+}
+
+.login {
+    background-color: #07689f;
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: none;
+}
