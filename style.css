@@ -93,7 +93,7 @@ a.active {
 /* Dynamic hamburger menu */
 
 nav {
-    background: #222;
+    background: #05486e;
     padding: 0 15px;
 }
  
@@ -190,7 +190,7 @@ a {
 }
 
 .submenu-active {
-    background-color: #111;
+    background-color: #07689f;
     border-radius: 3px;
 }
 
@@ -203,7 +203,7 @@ a {
 
 .homepage-form {
     width: fit-content;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 /* actions buttons */
