@@ -265,6 +265,7 @@ input.actions {
     max-width: 1000px;
     position: relative;
     margin: auto;
+
   }
   
   /* Hide the images by default */
@@ -345,3 +346,33 @@ input.actions {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  /* property title */
+
+  .title {
+    margin: 5px 5px 10px 5px;
+    font-weight: bold;
+  }
+
+  .title-id {
+    font-weight: 100;
+  }
+
+
+  /* Property page media buttons */
+
+  .media {
+    display: flex;
+    justify-content: space-around;
+  }
+
+ .media-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .dates {
+    margin: 20px 5px 20px 5px;
+  }
+

@@ -45,8 +45,8 @@
         <input type="submit" value="Search" class="search-btn">
     </form>
 
-    <div>
-        <p>Property ID: 083785</p>
+    <div class="title">
+        <p>Property ID: <span class="title-id">083785</span></p>
         <p>36 Abbots Road, GL5 6YH</p>
     </div>
 
@@ -85,7 +85,26 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <script src="/HomeSafe/js/slideshow.js"></script>
+  <div class="dates">
+    <p>Last Gas Survey: <span>12/02/2022</span></p>
+    <p>Video Survey Date: <span>12/01/2020</span></p>
+    <p>Video Survey Approved: Rob Panou 14/01/2020</p>
+  </div>
+
+  <div class="media">
+    <form action="/HomeSafe/home2.html" class="">
+        <input type="submit" value="Videos" class="login media-btn">
+    </form>
+    <form action="/HomeSafe/property.html" class="">
+        <input type="submit" value="Photos" class="login media-btn">
+    </form>
+    <form action="/HomeSafe/home2.html" class="">
+        <input type="submit" value="Surveys" class="login media-btn">
+    </form>
+
+  </div>
+
+  <script src="/js/slideshow.js"></script>
   <script src="/HomeSafe/js/hamburger.js"></script>
 </body>
 </html>
