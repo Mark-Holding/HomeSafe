@@ -408,3 +408,38 @@ input.actions {
     font-size: 28px;
     font-weight: 900;
 }
+
+/* photo page */
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.image-gallery > li {
+    flex-basis: 350px;
+}
+
+.image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+/* survey page */
+
+.survey-content {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.coming-soon {
+    max-width: 90%;
+    height: auto;
+
+}
