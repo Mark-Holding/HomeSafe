@@ -199,11 +199,26 @@ a {
 .text-input {
     border: 2px solid black;
     border-radius: 12px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width: 70%;
 }
 
 .homepage-form {
-    width: fit-content;
+    width: 80%;
     margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-btn {
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
 }
 
 /* actions buttons */
