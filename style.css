@@ -250,7 +250,7 @@ input.actions {
     border: 2px solid black;
     border-radius: 12px;
     margin: 20px;
-
+    min-height: 135px;
 }
 .thumbnail-img {
 
@@ -272,6 +272,10 @@ input.actions {
 
 .li-img {
     flex: 1;
+}
+
+.recent {
+    margin-left: 20px;
 }
 
 
@@ -391,3 +395,16 @@ input.actions {
     margin: 20px 5px 20px 5px;
   }
 
+/* video page */
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.video-content p {
+    font-size: 28px;
+    font-weight: 900;
+}
